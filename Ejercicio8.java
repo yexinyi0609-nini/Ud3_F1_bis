@@ -5,16 +5,23 @@ public class Ejercicio8 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Introducir el nombre del alumno:"); 
-        double nombre = input.nextInt();
+        String nombre = input.nextLine();
 
-        System.out.println("Introducir nota de 1evaluación:");
-        double nota1Evaluación = input.nextInt();
+        System.out.println("Introducir nota de 1Evaluación:");
+        double nota1Evaluación = input.nextDouble();
 
-        System.out.println("Introducir nota de 2evaluación");
-        double nota2Evaluación = input.nextInt();
+        System.out.println("Introducir nota de 2Evaluación");
+        double nota2Evaluación = input.nextDouble();
 
-        System.out.println("Introducir notas de 3evaluación");
-        double nota3Evaluación = input.nextInt();
+        System.out.println("Introducir notas de 3Evaluación");
+        double nota3Evaluación = input.nextDouble();
+
+        System.out.println("Alumno:" + nombre);
+        double notaTotal = (nota1Evaluación + nota2Evaluación + nota3Evaluación)/3.0;
+
+        System.out.printf("Su nota media correspondiente es: %.2f%n" , notaTotal);
+
+        input.close();
 
     }
 
