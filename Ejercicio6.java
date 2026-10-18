@@ -7,11 +7,11 @@ import java.util.Scanner;
             //Pedir número de grado Celsius
             System.out.println("Introducir la temperatura en  grado Celsius");
             //Introducir cualquier número
-            double celsius = input.nextInt();
+            double celsius = input.nextDouble();
             //Calcular el grado fahrenheit
             double fahrenheit = (celsius * 1.8)+ 32; 
 
-            System.out.println("La temperetura en grado fahrenheit:" + fahrenheit);
+            System.out.println("La temperatura en grado fahrenheit: " + fahrenheit);
 
             input.close();
 

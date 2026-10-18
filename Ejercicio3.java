@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class Ejercicio3 {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
-       
-          int numero1 = 5;
-          int numero2 = 2;
+        
+        System.out.println("Introducir un número: ");
+          int numero1 = input.nextInt();
+        System.out.println("Introducir un número: ");
+          int numero2 = input.nextInt();
 //FÓrmula de cálculo
           int suma = numero1 + numero2 ;
           int resta = numero1 - numero2;

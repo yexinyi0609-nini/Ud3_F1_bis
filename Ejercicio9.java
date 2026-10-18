@@ -3,7 +3,7 @@ public class Ejercicio9 {
 
         //Tradución ingles-español
     String palabra1 = "Apple    Manzana";
-    String palabra2 = "Coche    Car";
+    String palabra2 = "Car      Coche";
     String palabra3 = "Lluvia   Rain";
     String palabra4 = "Calle    Street";
     String palabra5 = "Lobo     Wolf";

@@ -4,7 +4,7 @@ public class Ejercicio4 {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Introduca su número de radio: ");
+        System.out.println("Introducir su número de radio: ");
 //Introducir cualquier número
         int radio = input.nextInt();
 //Fórmula de cálculo
